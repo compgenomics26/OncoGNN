@@ -1,23 +1,25 @@
 name: oncognn
 
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
   - defaults
 
 dependencies:
-  - python=3.10
+  - python=3.13
   - numpy
   - pandas
   - scipy
-  - scikit-learn
+  - scikit-learn=1.8.0
   - matplotlib
-  - seaborn
+  - seaborn=0.13.2
   - networkx
   - python-igraph
-  - pytorch
   - pip
+
   - pip:
-      - torch-geometric
+      - torch==2.10.0
+      - torch-geometric==2.7.0
       - pytorch-lightning
       - node2vec
+      - wandb
