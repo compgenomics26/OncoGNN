@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+networkx
+python-igraph
+torch
+torch-geometric
+pytorch-lightning
+node2vec
+wandb
