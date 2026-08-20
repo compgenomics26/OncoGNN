@@ -19,7 +19,7 @@ import pandas as pd
 from Bio import Entrez, Medline
 
 
-Entrez.email   = "24ltms15@uohyd.ac.in"
+Entrez.email   = ""
 Entrez.tool    = "ESCA-gene-prioritisation-litscreen"
 Entrez.api_key = os.environ.get("NCBI_API_KEY")  
 
