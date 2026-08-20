@@ -1,6 +1,6 @@
 # OncoGNN
 
-## An Interpretable Graph Neural Network Framework for Disease-Gene Prioritization Using Heterogeneous Biological Features
+## An Interpretable Graph Neural Network Framework Integrating Multi-Omics and Single-Cell Features for Disease-Gene Prioritization
 
 OncoGNN is a graph neural network (GNN)-based framework for disease-gene prioritization that integrates heterogeneous biological information within a weighted protein-protein interaction network.
 
