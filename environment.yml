@@ -1,0 +1,23 @@
+name: oncognn
+
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - networkx
+  - python-igraph
+  - pytorch
+  - pip
+  - pip:
+      - torch-geometric
+      - pytorch-lightning
+      - node2vec
